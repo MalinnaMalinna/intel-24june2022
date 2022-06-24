@@ -20,7 +20,7 @@ jobs:
           cache: 'npm'
 
       - name: Install Gatsby CLI
-        run: npm install --location-global gatsby-cli
+        run: npm install --location=global gatsby-cli
 
       - name: Install Dependencies
         run: npm install
